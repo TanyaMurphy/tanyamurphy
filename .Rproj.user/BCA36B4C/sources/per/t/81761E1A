@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573690466639.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3670466516",
+    "id" : "81761E1A",
+    "lastKnownWriteTime" : 1573694652,
+    "last_content_update" : 1573694652728,
+    "path" : "~/Tanya/research/git-repos/tanyamurphy/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "136,14",
+        "scrollLine" : "116"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

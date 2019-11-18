@@ -1,0 +1,175 @@
+baseURL = "http://example.org"
+title = "Hugo Zzo Theme"
+theme = "hugo-theme-zzo"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+summaryLength = 70
+
+googleAnalytics = ""
+copyright = "MIT©zzossig"
+timeout = 10000
+enableEmoji = true
+paginate = 7
+rssLimit = 100
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+  logoText = "Tanya Murphy"
+  description = "R lessons, curated blog, and other musings."
+  custom_css = ["css/custom.css", "scss/custom.scss"]
+  custom_js = ["js/custom.js"]
+  myname = "Tanya Murphy"
+  whoami = "Epidemiologist (MSc, PhDc) and data scientist."
+
+  # body
+  enableBreadcrumb = true
+  enablePhotoSwipe = true
+  enableSearch = true
+  enableMark = true
+  enableGoToTop = true
+  enableWhoami = true
+  summaryShape = "card" # card, classic, compact
+  archiveGroupByDate = "2017-01" # "2006-01": group by month, "2006": group by year
+  
+  # sidebar
+  enableSidebar = true
+  enableSidebarTags = true
+  enableSidebarSeries = true
+  enableSidebarCategories = true
+  enableToc = true
+  itemsPerCategory = 5
+  enableSideSubscribe = false
+  
+  # footer
+  showPoweredBy = true
+  showFeedLinks = true
+  showSocialLinks = true
+  enableLangChange = true
+  enableThemeChange = true
+  themeOptions = ["dark", "light", "hacker", "solarized", "custom"]
+
+  # comment
+  enableComment = false
+  disqus_shortname = ""
+  commento = false
+
+  [params.socialOptions]
+    email = "mailto:tanya.murphy@mail.mcgill.ca"
+    facebook = ""
+    twitter = "@tmurphEpi"
+    github = "https://github.com/TanyaMurphy"
+    stack-overflow = "https://stackoverflow.com/users/2969701/tanya-murphy"
+    instagram = ""
+    google-plus = ""
+    youtube = ""
+    medium = ""
+    tumblr = ""
+    linkedin = "https://www.linkedin.com/in/tanya-murphy-8298a457/"
+    pinterest = ""
+    stack-exchange = ""
+
+[marketing]
+  google_analytics = ""
+  google_tag_manager = ""
+
+[languages]
+[languages.en]
+  title = "Tanya Murphy"
+  languageName = "English"
+  weight = 1
+
+[[languages.en.menu.main]]  
+  identifier = "about"
+  name = "about"  
+  url = "about"
+  weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "archive"
+  name = "archive"
+  url = "archive"
+  weight = 11
+
+#[[languages.en.menu.main]]
+#  identifier = "gallery"
+#  name = "gallery"
+#  url = "gallery"
+#  weight = 12
+    
+#[[languages.en.menu.main]]
+#  parent = "gallery"
+#  name = "cartoon"
+#  url = "gallery/cartoon"
+
+#[[languages.en.menu.main]]
+#  parent = "gallery"
+#  name = "photo"
+#  url = "gallery/photo"
+
+[[languages.en.menu.main]]
+  identifier = "posts"
+  name = "posts"
+  url = "posts"
+  weight = 13
+
+[[languages.en.menu.main]]
+  identifier = "notes"
+  name = "notes"
+  url = "notes"
+  weight = 14
+
+[languages.fr]
+  title = "Tanya Murphy"
+  languageName = "Français"
+  weight = 2
+
+[[languages.fr.menu.main]]
+  identifier = "about"
+  name = "about"
+  url = "about"
+  weight = 20
+
+[[languages.fr.menu.main]]
+  identifier = "archive"
+  name = "archive"
+  url = "archive"
+  weight = 21
+
+#[[languages.fr.menu.main]]
+#  identifier = "gallery"
+#  name = "gallery"
+#  url = "gallery"
+#  weight = 22
+    
+#[[languages.fr.menu.main]]
+#  parent = "gallery"
+#  name = "cartoon"
+#  url = "gallery/cartoon"
+
+#[[languages.fr.menu.main]]
+#  parent = "gallery"
+#  name = "photo"
+#  url = "gallery/photo"
+
+[[languages.fr.menu.main]]
+  identifier = "posts"
+  name = "posts"
+  url = "posts"
+  weight = 23
+    
+[[languages.fr.menu.main]]
+  identifier = "notes"
+  name = "notes"
+  url = "notes"
+  weight = 24
